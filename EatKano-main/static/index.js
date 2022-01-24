@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 59) return '你也是个FW？';
-    if (score <= 99) return 'cc给了你一脚';
-    if (score <= 139) return 'cc很高兴';
-    if (score <= 199) return 'cc愿意叫你主人';
-    return 'cc想给你口';
+    if (score <= 30) return '你的力气让来婷操心';
+    if (score <= 60) return '你把来婷草的眼冒爱心';
+    if (score <= 90) return '来婷舒服的伸着舌头翻白眼';
+    if (score <= 120) return '来婷变成你的专属rbq了';
+    return '来婷一脚把你踹醒了，原来是一场梦';
 }
 
 function toStr(obj) {
